@@ -1,0 +1,21 @@
+.profile-details {
+    justify-self: center;
+    margin-top: 5vh;
+  }
+  
+  .profile-image {
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    background-image: url('../../assets/images/tbsw profile image.jpg');
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .profile-name {
+    color: rgb(172, 172, 172);
+    letter-spacing: 1px;
+  }
