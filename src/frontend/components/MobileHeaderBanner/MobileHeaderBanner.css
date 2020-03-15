@@ -1,0 +1,88 @@
+.header-banner.outer-container {
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.header-banner.inner-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    justify-content: center;
+}
+
+.stripe {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.stripe h1 {
+    margin: 0;
+    padding: 0;
+    transform: rotate(-90deg) translateX(-550%);
+    font-size: 18vw;
+    animation: ease 1s;
+    animation-name: slidein;
+    animation-fill-mode: forwards;
+}
+
+.stripe.cj {
+    background-color: #70ca43;
+    padding-top: 10vh;
+    color: #fbe18e;
+}
+
+.cj h1 {
+    animation-delay: 1s;
+}
+
+.stripe.dev {
+    background-color: #74cae5;
+    padding-top: 20vh;
+    color: #e44e2d;
+}
+
+.dev h1 {
+    animation-delay: 1.2s;
+}
+
+.stripe.emma {
+    background-color: #fbe18e;
+    padding-top: 30vh;
+    color: #70ca43;
+}
+
+.emma h1 {
+    animation-delay: 1.4s;
+}
+
+.stripe.lex {
+    background-color: #f3a536;
+    padding-top: 40vh;
+    color: #fbe18e;
+}
+
+.lex h1 {
+    animation-delay: 1.6s;
+}
+
+.stripe.maxie {
+    background-color: #e44e2d;
+    padding-top: 50vh;
+    color: #74cae5;
+}
+
+.maxie h1 {
+    animation-delay: 1.8s;
+}
+
+@keyframes slidein {
+from { 
+    transform: rotate(-90deg) translateX(-550%); 
+}
+to { 
+    transform: rotate(-90deg) translateX(0%);
+}
+}
