@@ -1,0 +1,45 @@
+.latest-episode.outer-container {
+    position: relative;
+    top: 60vh;
+    height: 10vh;
+    width: 100%;
+    background-color: #fbe18e;
+    display: flex;
+  }
+  
+  .latest-episode.outer-container h1 {
+    margin: auto;
+    color: #e44e2d;
+    font-size: 25px;
+  }
+  
+  .episode-links {
+    width: 40%;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .spotify {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .spotify svg {
+    height: 50px;
+    width: 50px;
+    fill: #70ca43;
+  }
+  
+  .youtube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .youtube svg {
+    height: 50px;
+    width: 50px;
+    fill: #e44e2d;
+  }

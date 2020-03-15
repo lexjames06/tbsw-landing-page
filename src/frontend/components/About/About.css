@@ -1,0 +1,29 @@
+.about.outer-container {
+    height: auto;
+    width: 100%;
+    background-color: #e44e2d;
+    position: relative;
+    top:60vh;
+    padding: 0px 0 20px;
+}
+  
+.about.outer-container h1 {
+    width: 40%;
+    color: white;
+    margin: auto;
+    padding: 20px 0 5px;
+    border-bottom: 2px solid #fbe18e;
+}
+  
+.about.outer-container h3 {
+    color: #fbe18e;
+    margin: 0;
+    padding: 5px 0;
+}
+  
+.about.outer-container p {
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding: 24px 0 16px;
+}

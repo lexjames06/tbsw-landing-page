@@ -1,7 +1,7 @@
 .header-banner.outer-container {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     height: 60vh;
     overflow: hidden;
     z-index: 0;
@@ -74,7 +74,7 @@
 
 .stripe.maxie {
     background-color: #e44e2d;
-    padding-top: 50vh;
+    padding-top: 48vh;
     color: #74cae5;
 }
 

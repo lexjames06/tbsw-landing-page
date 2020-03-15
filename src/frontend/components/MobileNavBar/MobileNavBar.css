@@ -1,0 +1,115 @@
+.navbar.outer-container {
+    position: fixed;
+    background-color: transparent;
+    display: grid;
+    width: 100vw;
+    height: 8vh;
+    z-index: 1;
+    grid-template-columns: 20% 40% 10%;
+    /* grid-template-rows: 1fr; */
+    grid-template-areas:
+    'searchIcon searchBar searchBar searchBar menuIcon';
+  }
+  
+  .icon.search {
+    background-color: transparent;
+    grid-area: searchIcon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon.search svg {
+    align-self: center;
+    fill: rgba(0, 0, 0, 0.5);
+  }
+  
+  .search-bar {
+    width: 100%;
+    grid-area: searchBar;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .search-bar form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 3px;
+  }
+  
+  .search-bar input {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: block;
+    padding-left: 15px;
+    margin: 0;
+    height: 30px;
+    width: 70%;
+    border-radius: 15px;
+    border: 0px;
+    transition: ease 0.3s;
+  }
+  
+  .search-bar input::placeholder {
+    color: white;
+  }
+  
+  .search-bar button {
+    background-color: transparent;
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    padding: 4px 0;
+    transition: ease 0.3s;
+    border: none;
+  }
+  
+  .search-bar button svg {
+    fill: rgba(0, 0, 0, 0.5);
+  }
+  
+  .icon.menu {
+    grid-area: menuIcon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bun {
+    height: 3px;
+    width: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    transition: ease 0.2s;
+  }
+  
+  .bun.top {
+    margin-bottom: 5px;
+  }
+  
+  .bun.bottom {
+  
+  }
+  
+  .search-bar input[name=false] {
+    width: 0;
+    visibility: hidden;
+    margin-left: -50px;
+  }
+  
+  .search-bar button[name=false] {
+    opacity: 0;
+  }
+  
+  .icon.menu .top[name=true] {
+    transform: rotate(45deg) translateY(200%);
+  }
+  
+  .icon.menu .bottom[name=true] {
+    transform: rotate(-45deg) translateY(-200%);
+  }

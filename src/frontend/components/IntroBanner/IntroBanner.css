@@ -1,0 +1,36 @@
+.intro-banner.outer-container {
+    position: relative;
+    top: 60vh;
+    height: 15vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .intro-banner.outer-container h1 {
+    color: #e44e2d;
+    margin: 0;
+  }
+  
+  .intro-banner.outer-container h3 {
+    color: #74cae5;
+    margin: 0;
+  }
+  
+  .star-rating svg {
+    fill: #f3a536;
+  }
+  
+  .review {
+    transition: ease 0.2s;
+  }
+  
+  .review[name=left] {
+    transform: translateX(-100%);
+  }
+  
+  .review[name=right] {
+    transform: translateX(100%);
+  }
