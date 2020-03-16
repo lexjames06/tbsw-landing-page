@@ -2,35 +2,6 @@
   text-align: center;
   width: 100vw;
   height: 285vh;
-  overflow: hidden;
+
   background-color: white;
-}
-
-.blog.outer-container {
-  position: relative;
-  top: 60vh;
-  height: 100vh;
-  width: 100vw;
-  background-color: white;
-}
-
-.blog.outer-container h1 {
-  width: 40%;
-  color: #e44e2d;
-  margin: auto;
-  padding: 20px 0 5px;
-}
-
-.latest-blog {
-  width: 80%;
-  height: 300px;
-  border: 2px solid #e44e2d;
-  margin: auto;
-}
-
-.latest-blog .blog-image {
-  width: 95%;
-  height: 150px;
-  margin: 2.5% auto;
-  background-color: #e44e2d;
 }

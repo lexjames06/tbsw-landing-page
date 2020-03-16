@@ -11,7 +11,7 @@
     width: 40%;
     color: white;
     margin: auto;
-    padding: 20px 0 5px;
+    padding: 50px 0 5px;
     border-bottom: 2px solid #fbe18e;
 }
   
@@ -24,6 +24,6 @@
 .about.outer-container p {
     color: white;
     width: 80%;
-    margin: auto;
-    padding: 24px 0 16px;
+    margin: 20px auto;
+    padding: 24px 0 20px;
 }

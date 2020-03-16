@@ -5,6 +5,7 @@ import MobileNavBar from './frontend/components/MobileNavBar/MobileNavBar';
 import LatestEpisodeBanner from './frontend/components/LatestEpisodeBanner/LatestEpisodeBanner';
 import IntroBanner from './frontend/components/IntroBanner/IntroBanner';
 import About from './frontend/components/About/About';
+import HomepageBlog from './frontend/components/HomepageBlog/HomepageBlog';
 import './App.css';
 
 function App() {
@@ -15,26 +16,7 @@ function App() {
       <IntroBanner />
       <LatestEpisodeBanner />
       <About />
-      {/* <Blog /> */}
-    </div>
-  );
-}
-
-function Blog() {
-  return (
-    <div className='blog outer-container'>
-      <h1>Blog</h1>
-      <div className='latest-blog'>
-        <div className='blog-image'></div>
-        <div className='blog-text'>
-          <h3>
-            
-          </h3>
-          <p>
-
-          </p>
-        </div>
-      </div>
+      <HomepageBlog />
     </div>
   );
 }
