@@ -1,0 +1,13 @@
+.footer.outer-container {
+    height: auto;
+    width: 100vw;
+    background-color: #e44e2d;
+    position: relative;
+    top: 60vh;
+}
+  
+.footer.outer-container h3 {
+    margin: 0;
+    padding: 20px 0;
+    color: white;
+}

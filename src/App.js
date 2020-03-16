@@ -7,6 +7,7 @@ import IntroBanner from './frontend/components/IntroBanner/IntroBanner';
 import About from './frontend/components/About/About';
 import HomepageBlog from './frontend/components/HomepageBlog/HomepageBlog';
 import NewsletterSignUp from './frontend/components/NewsletterSignUp/NewsletterSignUp';
+import Footer from './frontend/components/Footer/Footer';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <About />
       <HomepageBlog />
       <NewsletterSignUp />
+      <Footer />
     </div>
   );
 }
