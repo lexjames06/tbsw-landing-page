@@ -6,6 +6,7 @@ import LatestEpisodeBanner from './frontend/components/LatestEpisodeBanner/Lates
 import IntroBanner from './frontend/components/IntroBanner/IntroBanner';
 import About from './frontend/components/About/About';
 import HomepageBlog from './frontend/components/HomepageBlog/HomepageBlog';
+import NewsletterSignUp from './frontend/components/NewsletterSignUp/NewsletterSignUp';
 import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <LatestEpisodeBanner />
       <About />
       <HomepageBlog />
+      <NewsletterSignUp />
     </div>
   );
 }

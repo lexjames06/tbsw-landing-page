@@ -5,6 +5,7 @@
     height: 100vh;
     width: 100vw;
     background-color: white;
+    padding-bottom: 30px;
 }
   
 .blog.outer-container h1 {
