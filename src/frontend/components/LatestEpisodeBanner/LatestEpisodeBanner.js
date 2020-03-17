@@ -5,7 +5,10 @@ import './LatestEpisodeBanner.css';
 export default function LatestEpisodeBanner() {
     return (
       <div className='latest-episode outer-container'>
-        <h1>Latest Episode</h1>
+        <div className='latest-episode banner-text'>
+          <h1>Latest Episode</h1>
+          <h4>Available on Spotify, YouTube <br></br><span>and more</span></h4>
+        </div>
         <div className='episode-links'>
           <div className='spotify'>
             <svg width="24" height="24" fill-rule="evenodd" clip-rule="evenodd" viewBox='0 0 24 24'>

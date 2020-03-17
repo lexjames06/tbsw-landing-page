@@ -1,5 +1,6 @@
 .navbar.outer-container {
     position: fixed;
+    top: 0vh;
     background-color: transparent;
     display: grid;
     width: 100vw;
@@ -9,6 +10,10 @@
     /* grid-template-rows: 1fr; */
     grid-template-areas:
     'searchIcon searchBar searchBar searchBar menuIcon';
+  }
+
+  .navbar.outer-container.fixed {
+    position: fixed;
   }
   
   .icon.search {

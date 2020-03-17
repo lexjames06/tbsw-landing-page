@@ -1,0 +1,48 @@
+.blogs-form.outer-container {
+    height: auto;
+    width: 100vw;
+    background-color: grey;
+}
+
+.blogs-form.outer-container form {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 40px;
+}
+
+label {
+    padding: 20px 0 10px;
+}
+
+input[name=blogTitle],
+input[name=tags],
+textarea[name=blogBody] {
+    box-sizing: border-box;
+    border: none;
+    padding: 10px;
+}
+
+input[name=blogTitle] {
+    width: 100%;
+}
+
+input[name=tags] {
+    width: 100%;
+}
+
+textarea[name=blogBody] {
+    height: 200px;
+    width: 100%;
+}
+
+button[name=submitButton] {
+    margin: 10px 0;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 20%;
+    align-self: flex-end;
+}

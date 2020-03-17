@@ -1,0 +1,17 @@
+.app.outer-container {
+    text-align: center;
+    width: 100vw;
+    height: auto;
+    background-color: white;
+  }
+  
+  div[id=app1] {
+    position: relative;
+    top: 50vh;
+    z-index: 1;
+    height: auto;
+  }
+  
+  div[id=app2] {
+    position: relative;
+  }

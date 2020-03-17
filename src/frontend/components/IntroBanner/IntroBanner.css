@@ -8,11 +8,12 @@
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
+    z-index: 2;
   }
   
-  .intro-banner.outer-container h1 {
+  .intro-banner.outer-container h2 {
     color: #e44e2d;
-    margin: 0;
+    margin: 0 0 20px;
   }
   
   .intro-banner.outer-container h3 {

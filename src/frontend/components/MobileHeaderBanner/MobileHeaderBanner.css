@@ -1,6 +1,6 @@
 .header-banner.outer-container {
     position: fixed;
-    top: 0;
+    top: 0vh;
     width: 100vw;
     height: 60vh;
     overflow: hidden;
@@ -25,7 +25,7 @@
 .stripe h1 {
     margin: 0;
     padding: 0;
-    transform: rotate(-90deg) translateX(-550%);
+    transform: rotate(-90deg) translateX(-650%);
     font-size: 18vw;
     animation: ease 1s;
     animation-name: slidein;
@@ -83,10 +83,10 @@
 }
 
 @keyframes slidein {
-from { 
-    transform: rotate(-90deg) translateX(-550%); 
-}
-to { 
-    transform: rotate(-90deg) translateX(0%);
-}
+    from { 
+        transform: rotate(-90deg) translateX(-550%); 
+    }
+    to { 
+        transform: rotate(-90deg) translateX(0%);
+    }
 }

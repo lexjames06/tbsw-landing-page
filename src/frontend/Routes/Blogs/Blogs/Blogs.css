@@ -1,0 +1,50 @@
+.blogs.outer-container {
+    height: auto;
+    width: 100vw;
+    background-color: grey;
+    padding: 20px 0;
+}
+
+.blogs.inner-container {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 20px 0;
+    background-color: white;
+}
+
+.blog-preview {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px 5px;
+    background-color: grey;
+}
+
+.blog-preview a {
+    text-decoration: none;
+}
+
+.blog-preview h2 {
+    margin: 0;
+    color: white;
+}
+
+#tags {
+    font-style: italic;
+    color: rgb(56, 56, 56);
+}
+
+#read-time {
+    color: white;
+    margin: 5px 0;
+}
+
+#blog-preview span {
+    color: white;
+}
+
+#blog-date {
+    margin: 5px 0;
+    color: rgb(56, 56, 56);
+}

@@ -9,7 +9,7 @@ export default function Footer() {
   
     return (
       <div className='footer outer-container'>
-        <h3>The B-Side Word Podcast © {year}</h3>
+        <h5>The B-Side Word Podcast © {year}</h5>
       </div>
     );
 }

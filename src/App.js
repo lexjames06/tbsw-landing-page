@@ -1,26 +1,24 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import MobileHeaderBanner from './frontend/components/MobileHeaderBanner/MobileHeaderBanner';
-import MobileNavBar from './frontend/components/MobileNavBar/MobileNavBar';
-import LatestEpisodeBanner from './frontend/components/LatestEpisodeBanner/LatestEpisodeBanner';
-import IntroBanner from './frontend/components/IntroBanner/IntroBanner';
-import About from './frontend/components/About/About';
-import HomepageBlog from './frontend/components/HomepageBlog/HomepageBlog';
-import NewsletterSignUp from './frontend/components/NewsletterSignUp/NewsletterSignUp';
-import Footer from './frontend/components/Footer/Footer';
+import Homepage from './frontend/Routes/Homepage/Homepage';
+import BlogsForm from './frontend/Routes/Blogs/BlogsForm/BlogsForm';
+import Blog from './frontend/Routes/Blogs/Blog/Blog';
+import Blogs from './frontend/Routes/Blogs/Blogs/Blogs';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <MobileNavBar />
-      <MobileHeaderBanner />
-      <IntroBanner />
-      <LatestEpisodeBanner />
-      <About />
-      <HomepageBlog />
-      <NewsletterSignUp />
-      <Footer />
+      <BrowserRouter>
+        <Switch>
+          <Route exact path='/' component={Homepage} />
+          <Route exact path='/blogs/create' component={BlogsForm} />
+          <Route exact path='/blogs' component={Blogs} />
+          <Route exact path='/blogs/:title' component={Blog} />
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }
